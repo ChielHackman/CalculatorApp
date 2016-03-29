@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Calculator</title>
+</head>
+<body>
+  <h1>Vanilla JavaScript Calculator</h1>
+  <p>Mouse and keypad input available.</p><br />
+    <div class="container">
+        <div class="calculator">
+            <div id="display"></div>
+                <div class="button_row">
+                    <div id="ac" class="clearbutton">
+                      <button class="buttonclear">AC</button>
+                    </div>
+                    <div id="c" class="backspacebutton">
+                      <button class="buttonbackspace">C</button>
+                    </div>
+                    <div id="%" class="operatorbutton">
+                      <button class="buttonoperator">%</button>
+                    </div>
+                    <div id="/" class="operatorbutton">
+                      <button class="buttonoperator">/</button>
+                    </div>
+                </div>
+
+                <div class="button_row">
+                    <div id="7" class="numberbutton">
+                      <button class="buttonnumber">7</button>
+                    </div>
+                    <div id="8" class="numberbutton">
+                      <button class="buttonnumber">8</button>
+                    </div>
+                    <div id="9" class="numberbutton">
+                      <button class="buttonnumber">9</button>
+                    </div>
+                    <div id="*" class="operatorbutton">
+                      <button class="buttonoperator">*</button>
+                    </div>
+                </div>
+
+                <div class="button_row">
+                    <div id="4" class="numberbutton">
+                      <button class="buttonnumber">4</button>
+                    </div>
+                    <div id="5" class="numberbutton">
+                      <button class="buttonnumber">5</button>
+                    </div>
+                    <div id="6" class="numberbutton">
+                      <button class="buttonnumber">6</button>
+                    </div>
+                    <div id="-" class="operatorbutton">
+                      <button class="buttonoperator">-</button>
+                    </div>
+                </div>
+
+                <div class="button_row">
+                    <div id="1" class="numberbutton">
+                      <button class="buttonnumber">1</button>
+                    </div>
+                    <div id="2" class="numberbutton">
+                      <button class="buttonnumber">2</button>
+                    </div>
+                    <div id="3" class="numberbutton">
+                      <button class="buttonnumber">3</button>
+                    </div>
+                    <div id="+" class="operatorbutton">
+                      <button class="buttonoperator">+</button>
+                    </div>
+                </div>
+
+                <div class="button_row">
+                    <div id="." class="numberbutton">
+                      <button class="buttonnumber">.</button>
+                    </div>
+                    <div id="0" class="numberbutton">
+                      <button class="buttonnumber">0</button>
+                    </div>
+                    <div id="=" class="totalbutton">
+                      <button class="buttontotal">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	 <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">
+            app.initialize();
+        </script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+body {
+  text-align: center;
+}
+
+.container {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.calculator {
+    width: 400px;
+    border: 2px solid #000000;
+}
+
+.button_row {
+  width: 100%;
+  display: flex;
+}
+
+.numberbutton {
+    width: 25%;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.buttonnumber {
+  padding: 5px 10px;
+  font-size: 30px;
+  width: 60%;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonnumber:active {
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+
+.clearbutton {
+    width: 25%;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.buttonclear {
+  padding: 5px 10px;
+  font-size: 30px;
+  width: 90%;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #FA001D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonclear:active {
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+
+.backspacebutton {
+    width: 25%;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.buttonbackspace {
+  padding: 5px 10px;
+  font-size: 30px;
+  width: 90%;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #FA5300;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonbackspace:active {
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+
+.operatorbutton {
+    width: 25%;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.buttonoperator {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 30px;
+  width: 65%;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonoperator:active {
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+
+.totalbutton {
+    width: 50%;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.buttontotal {
+  padding: 5px 10px;
+  font-size: 30px;
+  width: 90%;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #09B300;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttontotal:active {
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+
+#display {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: right;
+    color: #000000;
+    background-color: #B1BAAB;
+    height: 50px;
+    width: 100%;
+}
